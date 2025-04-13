@@ -1,5 +1,5 @@
 {% set name = "evargs" %}
-{% set version = "0.9.1" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/evargs-{{ version }}.tar.gz
-  sha256: 35a802bcc35b3db3dc6e0599519d7dcd26a8605ce2850d04f5f2127d9a3f7027
+  sha256: 1993d3e6563f82ce2097e6455b043c6b327acb4b2342ab82ee94a6644f63b6cc
 
 build:
   number: 0
