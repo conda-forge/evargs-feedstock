@@ -1,5 +1,5 @@
 {% set name = "evargs" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/evargs-{{ version }}.tar.gz
-  sha256: 754d9391d522b1ecc3743e7da01047e2c257f6b0024a9568f56813edb9aebe06
+  sha256: 1993d3e6563f82ce2097e6455b043c6b327acb4b2342ab82ee94a6644f63b6cc
 
 build:
   number: 0
@@ -39,7 +39,7 @@ about:
   summary: '"EvArgs" is a lightweight python module for easy expression parsing and value-casting, validating by rules, and it provides flexible configuration and custom validation method.'
   description: |
     [Features]:
-    - It can specify the condition or value-assignment using a simple expression. e.g. "a=1;b>5"
+    - It can specify the condition or value-assignment using a simple expression. e.g. "a=1;b=5"
     - Evaluate assigned values. e.g "evargs.evaluate('a', 1)"
     - Put values. It's available to using "put" is without parsing the expression.
     - Value casting - str, int, float, complex...
