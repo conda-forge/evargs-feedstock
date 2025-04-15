@@ -14,7 +14,7 @@ Development: https://github.com/deer-hunt/evargs
 Documentation: https://github.com/deer-hunt/evargs
 
 [Features]:
-- It can specify the condition or value-assignment using a simple expression. e.g. "a=1;b>5"
+- It can specify the condition or value-assignment using a simple expression. e.g. "a=1;b=5"
 - Evaluate assigned values. e.g "evargs.evaluate('a', 1)"
 - Put values. It's available to using "put" is without parsing the expression.
 - Value casting - str, int, float, complex...
